@@ -8,10 +8,17 @@ header::after{
     opacity: .5;
 }
 
+header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
 header img{
-    float: left;
-    height: 50px;
+    /* float: left; */
+    height: 70px;
     margin-right: 15px;
+    margin-top: 10px;
 }
 
 .card{
@@ -19,6 +26,7 @@ header img{
     border: 2px solid white;
     margin: 0 auto;
     max-width: 600px;
+    box-shadow: #f35454 10px 10px 10px;
 }
 
 .timer{
@@ -48,4 +56,9 @@ header img{
     padding: 20px 30px;
     margin: 0 20px;
     border-radius: 7px;
+    /* box-shadow: #f8f6f6 3px 3px 5px; */
+}
+
+.btn:hover{
+    cursor: pointer;
 }
