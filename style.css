@@ -1,0 +1,51 @@
+body{
+    background-color: lightcoral;
+    margin: 0;
+}
+
+header::after{
+    background-color: black;
+    opacity: .5;
+}
+
+header img{
+    float: left;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.card{
+    background-color: lightgreen;
+    border: 2px solid white;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.timer{
+    background-color: rgb(243, 84, 84);
+    margin: 50px 70px 30px;
+    border-radius: 15px;
+}
+
+.timer-text{
+    text-align: center;
+    font-size: 100px;
+    padding: 70px 0;
+    font-family: monospace;
+}
+
+.buttons{
+    margin: 0 auto;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    display: inline-block;
+    border: 2px solid rgb(111, 240, 233);
+    background-color: white;
+    padding: 20px 30px;
+    margin: 0 20px;
+    border-radius: 7px;
+}
